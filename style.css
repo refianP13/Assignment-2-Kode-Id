@@ -1,0 +1,131 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+  
+  header{
+    background-color: whitesmoke;
+  }
+  
+  .container{
+    background-color: whitesmoke;
+    padding: 20px;
+  }
+  
+  .dlm-con{
+    display :flex ;
+    padding: 30px;
+    background-color: white;
+    
+  
+  }
+  
+  .sidebar{
+    display: flex;
+    width : 360px;
+    height: auto;
+    background-color: white;
+    margin-left: 70px;
+   
+  }
+  .sidebar img{
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    
+    
+  }
+  .nama{
+    margin-left: 20px;
+  }
+  .nama p{
+    margin-top: -10px;
+    
+  }
+  
+  .btn-kontak{
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+  }
+  .btn-resume{
+    background-color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  
+  .sidebar-2{
+    margin-left: 70px;
+    display: flex;
+    
+  }
+  .sdb-kiri{
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  form{ 
+    background: white;
+    margin-top: 50px;
+    
+  }
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .submit{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: large;
+  }
+  
+  
