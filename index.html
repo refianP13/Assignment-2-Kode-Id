@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
     <nav>
@@ -37,6 +38,8 @@
 
           <div class="sidebar-2">
             <div class="sdb-kiri">
+              <p>TEMPAT</p>
+              <p>ruang</p>
               <p>Availbility</p>
               <p>Usia</p>
               <p>Lokasi</p>
@@ -89,33 +92,7 @@
         
           <button class="submit" type="submit" value="submit">Submit</button>
       </form>
-        <script>
-          function submitForm() {
-            event.preventDefault();
-
-            const name = document.getElementById("input-name").value;
-            document.getElementById("name").innerText = name;
-
-            const role = document.getElementById("input-role").value;
-            document.getElementById("role").innerText = role;
-
-            const availbility = document.getElementById("input-availbility").value;
-            document.getElementById("availbility").innerText = availbility;
-
-            const usia = document.getElementById("input-usia").value;
-            document.getElementById("usia").innerText = usia;
-
-            const lokasi = document.getElementById("input-lokasi").value;
-            document.getElementById("lokasi").innerText = lokasi;
-
-            const yearsExperience = document.getElementById("input-yearsExperience").value;
-            document.getElementById("yearsExperience").innerText = yearsExperience;
-
-            const email = document.getElementById("input-email").value;
-            document.getElementById("email").innerText = email;
-          }
-          
-        </script>
+       
       </div>
     </header>
   </body>
